@@ -21,17 +21,18 @@ body {
     text-align: center;
 }
 
+/* Main Content */
+
 main {
     background-color: #1B1937;
     border-radius: 0.5em;
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    padding: 1.25em;
 }
 
-.container {
-    padding: 1.25em;
+h1 {
+    margin: 0;
 }
 
 p {
@@ -40,6 +41,15 @@ p {
 
 button {
     font-size: 1.25em;
-    padding: 0.625em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
 }
 

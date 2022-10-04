@@ -1,28 +1,30 @@
-// Part 1
+// PART 1
 
 console.log("Hello, World!");
 
 // Numbers
 
-console.log(23 + 97);
-console.log(2 + 8);
-console.log(3 + 10);
-console.log(20 + 35);
-console.log(10 + 37);
-console.log(45 + 27);
-console.log(10 + 77);
-console.log((4 + 6 + 9) / 77);
+console.log(23 + 97); // 120
+console.log(2 + 8); // 10
+console.log(3 + 10); // 13
+console.log(20 + 35); // 55
+console.log(10 + 37); // 47
+console.log(45 + 27); // 72
+console.log(10 + 77); // 87
+console.log((4 + 6 + 9) / 77); // 0.2467
 
 // Variables
 
-let a = 10;
-console.log(a);
+let num = 10;
+console.log(num);
 
 const max = 57;
 const actual = max - 13;
 const percentage = actual / max;
 
-// Part 2
+console.log(percentage) // 0.7719
+
+// PART 2
 
 // Troubleshooting
 
@@ -45,8 +47,7 @@ function troubleshooting() {
 // Number Checker
 
 function numberChecker() {
-
-    number = Number(prompt("enter a number"));
+    number = Number(prompt("Enter a number"));
 
     if(number >= 10) {
         console.log(true);
@@ -57,30 +58,31 @@ function numberChecker() {
 
 // Math
 
-const c = 1 + 8; // 9
-const d = 22 * 3; // 66
-const e = 5 % 4; // 1
-const f = c - 17; // -8
-const g = c + d + e + f; // 68
-
 function math() {
+    const a = 1 + 8; // 9
+    const b = 22 * 3; // 66
+    const c = 5 % 4; // 1
+    const d = a - 17; // -8
+    const e = a + b + c + d; // 68
+
+    console.log(a);
+    console.log(b);
     console.log(c);
     console.log(d);
     console.log(e);
-    console.log(f);
-    console.log(g);
 }
 
 // Follow
 
-const birthYear = 1948;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
-const fullName = firstName + " " + lastName;
-const age = thisYear - birthYear;
-
 function follow() {
+
+    const birthYear = 1948;
+    const thisYear = 1965;
+    const firstName = "Carlos";
+    const lastName = "Stevenson";
+    const fullName = firstName + " " + lastName;
+    const age = thisYear - birthYear;
+
 	const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 	console.log(greeting);
@@ -88,4 +90,39 @@ function follow() {
 	const improvedgreeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 	console.log(improvedgreeting);
+}
+
+// PART 3
+
+function add7() {
+    const number = Number(prompt("enter a number"));
+    let result;
+
+    result = number + 7;
+
+    console.log(result);
+}
+
+function multiply() {
+    const a = Number(prompt("Enter the First Number"));
+    const b = Number(prompt("Enter the Second Number"));
+    let result;
+
+    result = a * b;
+
+    console.log(result);
+}
+
+function capitalize() {
+    const a = String(prompt("Enter a String"));
+    let result = a.toUpperCase();
+
+    console.log(result)
+}
+
+function lastLetter () {
+    const a = String(prompt("Enter a String"));
+    let result = a.slice(-1);
+
+    console.log(result)
 }
