@@ -1,0 +1,45 @@
+/* Boiler */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color:#0A0C1C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    text-align: center;
+}
+
+main {
+    background-color: #1B1937;
+    border-radius: 0.5em;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 1.25em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 0.625em;
+}
+
