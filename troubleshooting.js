@@ -14,15 +14,9 @@ function troubleshooting() {
 
 	let result;
 
-	// Edit between these lines
-	// =================================
 	result = a + b;
-
-	// =================================
 
     console.log(result);
 
 	return result;
 }
-
-troubleshooting();

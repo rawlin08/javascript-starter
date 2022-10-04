@@ -5,14 +5,13 @@
  * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
  */
 
- number = Number(prompt("enter a number"));
+function numberChecker() {
 
- function numberChecker() {
-     if(number >= 10) {
-         return true;
-     } else {
-         return false;
-     }
- }
+    number = Number(prompt("enter a number"));
 
-numberChecker();
+    if(number >= 10) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}

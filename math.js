@@ -11,15 +11,16 @@
  * e = the sum of the previous four variables
  */
 
- const a = 1 + 8; // 9
- const b = 22 * 3; // 66
- const c = 5 % 4; // 1
- const d = a - 17; // -8
- const e = a + b + c + d; // 68
+const c = 1 + 8; // 9
+const d = 22 * 3; // 66
+const e = 5 % 4; // 1
+const f = c - 17; // -8
+const g = c + d + e + f; // 68
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(e);
- 
+function math() {
+    console.log(c);
+    console.log(d);
+    console.log(e);
+    console.log(f);
+    console.log(g);
+}

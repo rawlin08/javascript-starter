@@ -55,10 +55,12 @@ const lastName = "Stevenson";
 const fullName = firstName + " " + lastName;
 const age = thisYear - birthYear;
 
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+function follow() {
+	const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
-console.log(greeting);
+	console.log(greeting);
 
-const improvedgreeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+	const improvedgreeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
-console.log(improvedgreeting);
+	console.log(improvedgreeting);
+}
